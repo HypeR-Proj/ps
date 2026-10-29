@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2026 roolrz
+# SPDX-License-Identifier: Apache-2.0
+
+config SYSTEM_APP_PS
+    bool "ps (/bin/ps)"
+    default y
+    help
+        Build and deploy hyper-ps at /bin/ps.
+
